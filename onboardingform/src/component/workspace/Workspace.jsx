@@ -14,6 +14,7 @@ export const Workspace = ({ formData, setFormData, setPage }) => {
             onChange={(e) =>
               setFormData({ ...formData, workspaceName: e.target.value })
             }
+            required
           />
         </div>
         <div className="workspace_url">
@@ -29,6 +30,7 @@ export const Workspace = ({ formData, setFormData, setPage }) => {
               onChange={(e) =>
                 setFormData({ ...formData, workspaceUrl: e.target.value })
               }
+              required
             />
           </div>
         </div>
