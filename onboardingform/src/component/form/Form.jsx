@@ -68,7 +68,7 @@ const Form = () => {
         <h3 className="header_text">Eden</h3>
       </div>
       <div className="progressbar">
-        <div></div>
+        <div style={{width: page === 0 ? '25%' : page === 1 ? '50%': page === 2 ? '75%': "100%"}}></div>
       </div>
       <div className="formCard">
         <div>
