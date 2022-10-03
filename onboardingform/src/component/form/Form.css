@@ -1,6 +1,8 @@
 .form_container{
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .header{
@@ -15,4 +17,20 @@
 .header_text{
     font-size: 2rem;
     font-weight: 500;
+}
+.progressbar{
+    width: 400px;
+  height: 3px;
+  background-color: var(--text-color);
+  margin-bottom: 4rem;
+  margin-top: 1rem;
+}
+.progressbar div{
+    width: 25%;
+    height: 100%;
+    background-color: var(--primary-color);
+}
+
+.formCard_headerMain{
+    color: var(--secondary-color)
 }

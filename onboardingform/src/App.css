@@ -1,6 +1,8 @@
 
 :root{
     box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
     --primary-color: #5a4ad1;
     --secondary-color: #40434a;
     --text-color: #9ba0ab;
