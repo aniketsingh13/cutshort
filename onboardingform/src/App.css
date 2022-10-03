@@ -4,6 +4,7 @@
     margin: 0%;
     padding: 0%;
     --primary-color: #5a4ad1;
+    --primary-color-hover: #7b6bef;
     --secondary-color: #40434a;
     --text-color: #9ba0ab;
   }

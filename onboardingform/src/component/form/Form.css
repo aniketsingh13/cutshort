@@ -23,7 +23,7 @@
   height: 3px;
   background-color: var(--text-color);
   margin-bottom: 4rem;
-  margin-top: 1rem;
+  margin-top: 3rem;
 }
 .progressbar div{
     width: 25%;
@@ -32,5 +32,24 @@
 }
 
 .formCard_headerMain{
-    color: var(--secondary-color)
+    font-size: 2rem;
+    font-weight: 500;
+}
+.formCard_headerSub{
+    text-align: center;
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 1rem;
+}
+.formCard_body{
+    margin-top: 2.5rem;
+}
+.formCard_button{
+    background-color: var(--primary-color);
+    color: white;
+    width: 105%;
+    margin-top: 1rem;
+    padding: .6rem;
+    border: none;
+    cursor: pointer;
 }

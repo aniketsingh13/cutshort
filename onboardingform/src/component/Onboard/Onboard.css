@@ -1,0 +1,37 @@
+.onBoardFullName{
+   margin-bottom: 1.5rem;
+}
+.onBoardFullName div{
+    font-weight: 500;
+    font-size: .9rem;
+    padding-bottom: .3rem;
+}
+.onBoardFullName input{
+    width: 100%;
+    padding: .6rem;
+    border: 1px solid var(--text-color);
+}
+
+.onBoardDisplayName div{
+    font-weight: 500;
+    font-size: .9rem;
+    padding-bottom: .3rem;
+}
+
+.onBoardDisplayName input{
+    width: 100%;
+    padding: .6rem;
+    border: 1px solid var(--text-color);
+}
+.onBoard_btn{
+    background-color: var(--primary-color);
+    color: white;
+    width: 105%;
+    margin-top: 1rem;
+    padding: .6rem;
+    border: none;
+    cursor: pointer;
+}
+.onBoard_btn:hover{
+    background-color: var(--primary-color-hover);
+}

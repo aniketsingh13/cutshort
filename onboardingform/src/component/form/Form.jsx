@@ -1,9 +1,14 @@
 import React from "react";
 import { useState } from "react";
+import Onboard from "../Onboard/Onboard";
 import "./Form.css";
 
 const Form = () => {
   const [page, setPage] = useState(0);
+  const [formData, setFormData] = useState({
+    fullName: "",
+    displayName: "",
+  });
 
   const formTitles = [
     {
@@ -18,8 +23,13 @@ const Form = () => {
       main: "How are you planning to use Eden?",
       sub: "We'll streamline your setup experience accordingly.",
     },
-    { },
+    {},
   ];
+  const pageDisplay = () => {
+    if (page === 0) {
+      return <Onboard formData={formData} setFormData={setFormData} setPage={setPage} />;
+    }
+  };
 
   return (
     <div className="form_container">
@@ -36,9 +46,10 @@ const Form = () => {
       </div>
       <div className="formCard">
         <div>
-        <div className="formCard_headerMain">{formTitles[page].main}</div>
-        <div className="formCard_headerSub">{formTitles[page].sub}</div>
+          <div className="formCard_headerMain">{formTitles[page].main}</div>
+          <div className="formCard_headerSub">{formTitles[page].sub}</div>
         </div>
+        <div className="formCard_body">{pageDisplay()}</div>
       </div>
     </div>
   );
