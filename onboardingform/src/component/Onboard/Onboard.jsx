@@ -5,7 +5,7 @@ const Onboard = ({ formData, setFormData, setPage }) => {
   return (
     <form onSubmit={() => setPage((prev) => prev + 1)}>
       <div className="onBoardFullName">
-        <div>Full Name</div>
+        <label>Full Name</label>
         <input
           type="text"
           placeholder="Steve Jobs"
@@ -17,7 +17,7 @@ const Onboard = ({ formData, setFormData, setPage }) => {
         />
       </div>
       <div className="onBoardDisplayName">
-        <div>Display Name</div>
+        <label>Display Name</label>
         <input
           type="text"
           placeholder="Steve"

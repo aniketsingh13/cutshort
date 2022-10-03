@@ -1,9 +1,9 @@
 .onBoardFullName{
    margin-bottom: 1.5rem;
 }
-.onBoardFullName div{
+.onBoardFullName label{
     font-weight: 500;
-    font-size: .9rem;
+    font-size: 1rem;
     padding-bottom: .3rem;
 }
 .onBoardFullName input{
@@ -12,16 +12,16 @@
     border: 1px solid var(--text-color);
 }
 
-.onBoardDisplayName div{
+.onBoardDisplayName label{
     font-weight: 500;
-    font-size: .9rem;
-    padding-bottom: .3rem;
+    font-size: 1rem;
 }
 
 .onBoardDisplayName input{
     width: 100%;
     padding: .6rem;
     border: 1px solid var(--text-color);
+    margin-top: .3rem;
 }
 .onBoard_btn{
     background-color: var(--primary-color);

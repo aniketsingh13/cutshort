@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import Onboard from "../Onboard/Onboard";
+import { Workspace } from "../workspace/Workspace";
 import "./Form.css";
 
 const Form = () => {
@@ -8,6 +9,8 @@ const Form = () => {
   const [formData, setFormData] = useState({
     fullName: "",
     displayName: "",
+    workspaceName: "",
+    workspaceUrl: ""
   });
 
   const formTitles = [
@@ -28,6 +31,8 @@ const Form = () => {
   const pageDisplay = () => {
     if (page === 0) {
       return <Onboard formData={formData} setFormData={setFormData} setPage={setPage} />;
+    }else if(page === 1){
+        return <Workspace formData={formData} setFormData={setFormData} setPage={setPage} />
     }
   };
 
