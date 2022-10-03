@@ -8,8 +8,7 @@
     border-radius: 5px;
     cursor: pointer;
     margin-left: 2rem;
-    box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 15%);
-    transition: border .2s ease-out;
+    transition: border .5s ease-out;
 }
 .TeamCard_header img{
  width: 15%;
@@ -31,8 +30,11 @@
     font-weight: 500;
 }
 
-.TeamCard:hover{
-    border: 2px solid var(--primary-color);
+.TeamCard:hover,
+.TeamCard:focus
+{
+    box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 15%);
+    border: 1px solid var(--primary-color);
 }
 .Team_btn{
     background-color: var(--primary-color);

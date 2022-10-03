@@ -1,0 +1,34 @@
+
+.submitForm {
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.submitForm img{
+    width: 6rem;
+}
+.submitForm div{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+.submitForm p {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-top: 1rem;
+}
+.submitForm button{
+    background-color: var(--primary-color);
+    color: white;
+    width: 105%;
+    margin-top: 1rem;
+    padding: .6rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.submitForm button:hover{
+    background-color: var(--primary-color-hover);
+}

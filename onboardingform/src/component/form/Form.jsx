@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import Onboard from "../Onboard/Onboard";
+import SubmitForm from "../submitForm/SubmitForm";
 import Team from "../Team/Team";
 import { Workspace } from "../workspace/Workspace";
 import "./Form.css";
@@ -51,6 +52,8 @@ const Form = () => {
       return (
         <Team formData={formData} setFormData={setFormData} setPage={setPage} />
       );
+    } else {
+      return <SubmitForm formData={formData} />;
     }
   };
 
