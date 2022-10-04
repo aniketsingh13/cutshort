@@ -9,3 +9,33 @@
     --text-color: #9ba0ab;
     --border-color: rgb(191 214 241);
   }
+
+  @media only screen and (min-width: 200px) and (max-width: 600px) {
+    html, body {
+        font-size: 60%;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+    html, body {
+        font-size: 80%;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1399px) {
+    html, body {
+        font-size: 90%;
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1920px) {
+    html, body {
+        font-size: 100%;
+    }
+}
+
+@media only screen and (min-width: 1921px)  {
+    html, body {
+        font-size: 120%;
+    }
+}
